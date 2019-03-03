@@ -15,9 +15,22 @@ module.exports = {
 
         }],
         sidebar: [
-            ['/', '首页'],
-            ['/helloword', '使用vuepress'],
-            // ['/startvuepress', '使用笔记'],
+            {
+                title: 'vuepress开发笔记',
+                collapsable: false,
+                children: [
+                    ['/使用vuePress笔记/配置文件', 'config.js配置注意事项'],
+                
+                ]
+            },
+            // {
+            //     title: 'typescript笔记',
+            //     collapsable: false,
+            //     children: [ 
+            //         ['/startvuepress/test', '使用vuepress'],
+            //         ['/startvuepress/hahah', 'cece']
+            //     ]
+            // },
         ],
         displayAllHeaders: false,
         activeHeaderLinks: true,
