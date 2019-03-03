@@ -1,31 +1,6 @@
-### Hello word
-> 开始写 blog
-#### 标题一
-stap 1
-```json
-{
-  "name": "myblog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "author": "",
-  "license": "ISC"
-}
+### 迎接新的开始
 
-```
+发刊词
+> 之前的搭建的网站没有功夫管理服务器和域名都过期了，尝试使用github管理文档永久文档管理
 
-
-#### 标题二
-stap 2
-
-#### 标题三
-stap 3
-
+<img src="img/书架.jpeg">

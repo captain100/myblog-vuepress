@@ -10,6 +10,7 @@ https://captain100.github.io/myblog/
 https://github.com/captain100/myblog
 
 博客框架地址
+git@github.com:captain100/myblog-vuepress.git
 
 
 ### 指令说明
