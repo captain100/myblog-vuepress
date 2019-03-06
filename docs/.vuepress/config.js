@@ -23,6 +23,14 @@ module.exports = {
                 
                 ]
             },
+            {
+                title: 'webpack 插件开发',
+                collapsable: false,
+                children: [
+                    ['/webpack-plugins/lesson_01', '开发webpack插件（一）'],
+                
+                ]
+            },
             // {
             //     title: 'typescript笔记',
             //     collapsable: false,
