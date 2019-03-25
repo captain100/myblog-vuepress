@@ -14,23 +14,30 @@ module.exports = {
             link: 'https://leetcode.com/problemset/all/'
 
         }],
-        sidebar: [
-            {
+        sidebar: [{
                 title: 'vuepress开发笔记',
                 collapsable: false,
                 children: [
                     ['/使用vuePress笔记/配置文件', 'config.js配置注意事项'],
-                
+
                 ]
             },
             {
                 title: 'webpack 插件开发',
                 collapsable: false,
                 children: [
+                    ['/webpack-plugins/lesson_02', '手动搭建webpack'],
+                    ['/webpack-plugins/lesson_03', 'HtmlwebpackPlugin 使用教程'],
                     ['/webpack-plugins/lesson_01', '开发webpack插件（一）'],
-                
                 ]
             },
+            {
+                title: '区块链笔记', 
+                children: [
+                    ['./nodejs和区块链/bitcon01.md', '最初的想法'],
+                    ['./nodejs和区块链/bitcon02.md', '区块链架构设计和知识图谱'],
+                ]
+            }
             // {
             //     title: 'typescript笔记',
             //     collapsable: false,
@@ -42,9 +49,13 @@ module.exports = {
         ],
         displayAllHeaders: false,
         activeHeaderLinks: true,
-        lastUpdated: '跟新时间',
-        evergreen: true
+        lastUpdated: '更新时间',
+        evergreen: true,
+
     },
     serviceWorker: true, // 开启service work    
-
+    // 设置markdown 样式
+    markdown: {
+        lineNumbers: true,
+    }
 }

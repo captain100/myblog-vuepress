@@ -19,4 +19,4 @@ git@github.com:captain100/myblog-vuepress.git
 |:---:|:---|
 |本地运行|npm run docs:dev|
 |本地构建|npm run docs:build|
-|发布|docs:deploy|
+|发布|npm run docs:deploy|
