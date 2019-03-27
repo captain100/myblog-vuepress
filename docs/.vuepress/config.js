@@ -36,6 +36,8 @@ module.exports = {
                 children: [
                     ['./nodejs和区块链/bitcon01.md', '最初的想法'],
                     ['./nodejs和区块链/bitcon02.md', '区块链架构设计和知识图谱'],
+                    ['./nodejs和区块链/bitcon03.md', '需求文档'],
+
                 ]
             }
             // {
