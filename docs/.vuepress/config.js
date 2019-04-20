@@ -39,15 +39,14 @@ module.exports = {
                     ['./nodejs和区块链/bitcon03.md', '需求文档'],
 
                 ]
-            }
-            // {
-            //     title: 'typescript笔记',
-            //     collapsable: false,
-            //     children: [ 
-            //         ['/startvuepress/test', '使用vuepress'],
-            //         ['/startvuepress/hahah', 'cece']
-            //     ]
-            // },
+            },
+            {
+                title: 'typescript笔记',
+                collapsable: true,
+                children: [ 
+                    ['/typescript/typescript_01', ' 使用typescript开发npm包'],
+                ]
+            },
         ],
         displayAllHeaders: false,
         activeHeaderLinks: true,
