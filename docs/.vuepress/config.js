@@ -22,6 +22,13 @@ module.exports = {
 
                 ]
             },
+            { 
+                title: 'flutter开发笔记',
+                collapsable: false,
+                children: [
+                    ['/flutter笔记/flutter_01', 'flutter for web 项目环境搭建'],
+                ]
+            },
             {
                 title: 'webpack 插件开发',
                 collapsable: false,
