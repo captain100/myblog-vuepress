@@ -21,13 +21,29 @@ git checkout v1.6.3
 vim .zshrc
 
 // 添加环境变量
-export PATH_TO_FLUTTER_GIT_DIRECTORY=/Users/qiushi/worksplace/flutter // 设置flutter sdk 本地地址
+export $PATH_TO_FLUTTER_GIT_DIRECTORY=/Users/qiushi/worksplace/flutter // 设置flutter sdk 本地地址
 export PUB_HOSTED_URL=https://pub.flutter-io.cn //国内用户需要设置
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn //国内用户需要设置
-export PATH=PATH_TO_FLUTTER_GIT_DIRECTORY/flutter/bin:$PATH
+export PATH=$PATH_TO_FLUTTER_GIT_DIRECTORY/flutter/bin:$PATH
+
+
+
+// 添加flutter全局安装指令 将.pub-cache/bin的地址配置到Path环境变量
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 
 // 使环境变量生效
 source ~/.zshrc
+```
+### 配置webdev 作用打包构架web应用
+```
+flutter pub global activate webdev
+// webdev 依赖dart 需要将dart-sdk 配置到环境变量 找到 flutter bin/cache/dart-sdk/bin
+/Users/qiushi/worksplace/flutter/bin/cache/dart-sdk/bin
+
+配置到PATH环境变变量中
+echo $PATH // 查看环境变量是否生效  
+
 ```
 
 ### vscode 安装插件
@@ -35,7 +51,7 @@ source ~/.zshrc
 Visual Studio Code (VS Code) 安装
 VS Code: 轻量级编辑器，支持Flutter运行和调试.
 ```
-// 安装 VS Code
+// 安装 VS Code 
 VS Code, 安装1.20.1或更高版本.
 // 安装Flutter插件
 1.启动 VS Code
@@ -49,7 +65,31 @@ VS Code, 安装1.20.1或更高版本.
 3. 查看“OUTPUT”窗口中的输出是否有问题
 
 ``` 
+### 本地调试
+使用vscode 调试开发配置 debug 使用F5 唤起调试
 
+```
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。   
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",s
+    "configurations": [
+        {
+            "name": "Dart",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart"
+        }               
+    ]   
+}
+```
 
-    
+### ios模拟器调试
+```
+<!-- 打开ios 模拟器 -->
+open -a Simulator
+<!-- 运行flutter app -->
+flutter run 
 
+```
