@@ -28,3 +28,17 @@ transform: translate router s
 > 调节推荐使用 https://www.cubic-bezier.com
 cubic-bezier(x1,y1,x2,y2) , (x1,y1)表示第一个控制点，(x2,y2)表示第二个控制点, 取值范围都在0-1之间
 
+#### 弹性过度
+```html
+<label>
+your username: <input id="username"/>
+<span class="callout">Only letters, number, underscores (_) and hyphens (-) allowed!</span>
+</label>
+```
+
+```css
+
+```
+
+### 背景与边框
+    
