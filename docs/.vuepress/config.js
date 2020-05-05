@@ -85,8 +85,8 @@ module.exports = {
             collapsable: true,
             children: [
                 ['/daybyday/js_pipeAsyncFns', 'JS pipeAsyncFns 实现和总结'],
-                ['/daybyday/js_deepMapObj', 'JS 深拷贝 实现和总结']
-
+                ['/daybyday/js_deepMapObj', 'JS 深拷贝 实现和总结'],
+                ['/daybyday/js_getUrlParams', 'JS 正则实现字符串url解析 实现和总结']
             ]
         }
         ],
