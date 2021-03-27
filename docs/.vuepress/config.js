@@ -64,6 +64,7 @@ module.exports = {
             title: 'css 技巧',
             collapsable: true,
             children: [
+                ['/css/时钟动画', 'svg 时钟动画'],
                 ['/css/css 揭秘读书笔记', 'css 揭秘读书笔记']
             ]
         },
