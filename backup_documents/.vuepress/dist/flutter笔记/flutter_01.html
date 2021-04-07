@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>安装flutter sdk | 钰炫笔记</title>
+    <meta name="description" content="记录前行的脚步👣">
+    
+    
+    <link rel="preload" href="/myblog/assets/css/0.styles.3bc5e039.css" as="style"><link rel="preload" href="/myblog/assets/js/app.f11a1633.js" as="script"><link rel="preload" href="/myblog/assets/js/9.aaa7dbc5.js" as="script"><link rel="prefetch" href="/myblog/assets/js/10.d2580d0b.js"><link rel="prefetch" href="/myblog/assets/js/11.c9f3477a.js"><link rel="prefetch" href="/myblog/assets/js/12.3a41294d.js"><link rel="prefetch" href="/myblog/assets/js/13.97fa311a.js"><link rel="prefetch" href="/myblog/assets/js/14.1ee7312a.js"><link rel="prefetch" href="/myblog/assets/js/15.0c05862c.js"><link rel="prefetch" href="/myblog/assets/js/16.5a4750d1.js"><link rel="prefetch" href="/myblog/assets/js/17.e481df91.js"><link rel="prefetch" href="/myblog/assets/js/18.0b4e82b4.js"><link rel="prefetch" href="/myblog/assets/js/19.10d20c54.js"><link rel="prefetch" href="/myblog/assets/js/2.7974f97d.js"><link rel="prefetch" href="/myblog/assets/js/20.f4aaa5cf.js"><link rel="prefetch" href="/myblog/assets/js/21.d6fbe446.js"><link rel="prefetch" href="/myblog/assets/js/22.cf9650d3.js"><link rel="prefetch" href="/myblog/assets/js/3.234983e3.js"><link rel="prefetch" href="/myblog/assets/js/4.6142ade0.js"><link rel="prefetch" href="/myblog/assets/js/5.4d687295.js"><link rel="prefetch" href="/myblog/assets/js/6.649c5b1f.js"><link rel="prefetch" href="/myblog/assets/js/7.2c112c6c.js"><link rel="prefetch" href="/myblog/assets/js/8.7208501a.js">
+    <link rel="stylesheet" href="/myblog/assets/css/0.styles.3bc5e039.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myblog/" class="home-link router-link-active"><!----> <span class="site-name">钰炫笔记</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myblog/" class="nav-link">主页</a></div><div class="nav-item"><a href="/myblog/classification/" class="nav-link">分类</a></div><div class="nav-item"><a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  leetcode
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myblog/" class="nav-link">主页</a></div><div class="nav-item"><a href="/myblog/classification/" class="nav-link">分类</a></div><div class="nav-item"><a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  leetcode
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading"><span>vuepress开发笔记</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading open"><span>flutter开发笔记</span> <span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/myblog/flutter笔记/flutter_01.html" class="active sidebar-link">flutter for web 项目环境搭建</a><ul class="sidebar-sub-headers"></ul></li></ul></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>webpack 插件开发</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>区块链笔记</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>typescript笔记</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>css 技巧</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>formily 文档</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>tensorFlowJS 学习</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>每天进步一点</span> <span class="arrow right"></span></p> <!----></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="flutter-for-web-项目环境搭建"><a href="#flutter-for-web-项目环境搭建" aria-hidden="true" class="header-anchor">#</a> flutter for web 项目环境搭建</h1> <blockquote><p>个人使用习惯原因，操作系统 macos 是flutter使用的的是<code>flutter for macos</code> ，终端使用<code>item2</code> 样式是<code>zsh</code>，编辑器<code>vscode</code> 基于上述环境配置</p></blockquote> <h3 id="安装flutter-sdk"><a href="#安装flutter-sdk" aria-hidden="true" class="header-anchor">#</a> 安装flutter sdk</h3> <p>这里有官方的下载地址<a href="https://flutterchina.club/setup-macos/" target="_blank" rel="noopener noreferrer">flutter官方官网<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 考虑到flutter还是在不断更新迭代为了快速跟进新功能并且有时需要查看源码方便所以通过git clone 将仓库clone到本地通过 git checkout 控制flutter的版本</p> <div class="language-shell line-numbers-mode"><pre class="language-text"><code>// 下载flutter sdk
+git clone -b master https://github.com/flutter/flutter.git
+
+// 指定flutter 运行版本
+git checkout v1.6.3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="配置环境变量"><a href="#配置环境变量" aria-hidden="true" class="header-anchor">#</a> 配置环境变量</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 设置zshrc的配置文件
+vim .zshrc
+
+// 添加环境变量
+export $PATH_TO_FLUTTER_GIT_DIRECTORY=/Users/qiushi/worksplace/flutter // 设置flutter sdk 本地地址
+export PUB_HOSTED_URL=https://pub.flutter-io.cn //国内用户需要设置
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn //国内用户需要设置
+export PATH=$PATH_TO_FLUTTER_GIT_DIRECTORY/flutter/bin:$PATH
+
+
+
+// 添加flutter全局安装指令 将.pub-cache/bin的地址配置到Path环境变量
+export PATH=&quot;$PATH&quot;:&quot;$HOME/.pub-cache/bin&quot;
+
+
+// 使环境变量生效
+source ~/.zshrc
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h3 id="配置webdev-作用打包构架web应用"><a href="#配置webdev-作用打包构架web应用" aria-hidden="true" class="header-anchor">#</a> 配置webdev 作用打包构架web应用</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>flutter pub global activate webdev
+// webdev 依赖dart 需要将dart-sdk 配置到环境变量 找到 flutter bin/cache/dart-sdk/bin
+/Users/qiushi/worksplace/flutter/bin/cache/dart-sdk/bin
+
+配置到PATH环境变变量中
+echo $PATH // 查看环境变量是否生效  
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="vscode-安装插件"><a href="#vscode-安装插件" aria-hidden="true" class="header-anchor">#</a> vscode 安装插件</h3> <p>添加vscode的扩展插件  flutter
+Visual Studio Code (VS Code) 安装
+VS Code: 轻量级编辑器，支持Flutter运行和调试.</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 安装 VS Code 
+VS Code, 安装1.20.1或更高版本.
+// 安装Flutter插件
+1.启动 VS Code
+2. 调用 View&gt;Command Palette… 或 F1
+3. 输入 `install extension`,
+4. 在搜索框输入 flutter , 在搜索结果列表中选择 ‘Flutter’, 然后点击 Install
+5. 选择 ‘OK’ 重新启动 VS Code
+// 通过Flutter Doctor验证您的设置
+1. 调用 View&gt;Command Palette… 
+2. 输入 ‘doctor’, 然后选择 ‘Flutter: Run Flutter Doctor’ action
+3. 查看“OUTPUT”窗口中的输出是否有问题
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h3 id="本地调试"><a href="#本地调试" aria-hidden="true" class="header-anchor">#</a> 本地调试</h3> <p>使用vscode 调试开发配置 debug 使用F5 唤起调试</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。   
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    &quot;version&quot;: &quot;0.2.0&quot;,s
+    &quot;configurations&quot;: [
+        {
+            &quot;name&quot;: &quot;Dart&quot;,
+            &quot;program&quot;: &quot;lib/main.dart&quot;,
+            &quot;request&quot;: &quot;launch&quot;,
+            &quot;type&quot;: &quot;dart&quot;
+        }               
+    ]   
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h3 id="ios模拟器调试"><a href="#ios模拟器调试" aria-hidden="true" class="header-anchor">#</a> ios模拟器调试</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!-- 打开ios 模拟器 --&gt;
+open -a Simulator
+&lt;!-- 运行flutter app --&gt;
+flutter run 
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间: </span> <span class="time">4/12/2020, 12:50:26 PM</span></div></div> <!----> </div> <!----></div></div>
+    <script src="/myblog/assets/js/app.f11a1633.js" defer></script><script src="/myblog/assets/js/9.aaa7dbc5.js" defer></script>
+  </body>
+</html>

@@ -1,9 +1,17 @@
-### 使用typescript 开发npm包
+---
+title: typescript 开发环境
+nav:
+  path: '/bolg'
+---
 
-#### 为什么要用typescript 编写函数库
-typescript是由类型定义的JavaScript的超级，使用typescript编写函数库，不仅可是使开发者带来开发效率的提高和静态检查的好处，还能对使用方带来用户开发体现
+### 使用 typescript 开发 npm 包
+
+#### 为什么要用 typescript 编写函数库
+
+typescript 是由类型定义的 JavaScript 的超级，使用 typescript 编写函数库，不仅可是使开发者带来开发效率的提高和静态检查的好处，还能对使用方带来用户开发体现
 
 #### 开发步骤
+
 ```javascript
 // 1、创建项目文件
 mkdir npm-ts-demo
@@ -31,7 +39,7 @@ npm init
     "build:es6": "tsc -P tsconfig.json --module ES6 --outDir dist/es6",
     "clear": "rm -rf dist/",
     "build": "npm run clear; npm run build:cmjs; npm run build:es6"
-  },  
+  },
 // 5、 npm link 调试
 
 // 6、 发布

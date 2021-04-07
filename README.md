@@ -1,22 +1,42 @@
-## 整理多年的文档, 作为自己的积累
---------
+# myblog
 
-> 使用vuepress 搭建名搭建 blog 
+## 整理多年的文档, 作为自己的积累
+
+---
+
+> 使用 vuepress 搭建名搭建 blog
 
 发布地址
 https://captain100.github.io/myblog/
 
-文档 git地址
+文档 git 地址
 https://github.com/captain100/myblog
 
 博客框架地址
-git@github.com:captain100/myblog-vuepress.git
+https://d.umijs.org/zh-CN
 
+## Getting Started
 
-### 指令说明
--------
-|说明|指令|
-|:---:|:---|
-|本地运行|npm run docs:dev|
-|本地构建|npm run docs:build|
-|发布|npm run docs:deploy|
+Install dependencies,
+
+```bash
+$ npm i
+```
+
+Start the dev server,
+
+```bash
+$ npm start
+```
+
+Build documentation,
+
+```bash
+$ npm run docs:build
+```
+
+Build library via `father-build`,
+
+```bash
+$ npm run build
+```
