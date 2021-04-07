@@ -2,7 +2,9 @@
 title: flutter for web 项目环境搭建
 nav:
   path: '/bolg'
----# flutter for web 项目环境搭建
+---
+
+# flutter for web 项目环境搭建
 
 > 个人使用习惯原因，操作系统 macos 是 flutter 使用的的是`flutter for macos` ，终端使用`item2` 样式是`zsh`，编辑器`vscode` 基于上述环境配置
 

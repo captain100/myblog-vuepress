@@ -1,7 +1,6 @@
 ---
 title: 最初的想法
 nav:
-  title: 博客
   path: '/bolg'
 
 group:

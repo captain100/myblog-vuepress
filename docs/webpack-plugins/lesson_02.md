@@ -3,7 +3,9 @@ title: webpack-plugins 开发环境搭建 02
 nav:
   title: 博客
   path: '/bolg'
----### 搭建环境步骤
+---
+
+# 搭建环境步骤
 
 ```do
 // 创建文件

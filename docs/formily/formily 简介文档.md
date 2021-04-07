@@ -2,7 +2,9 @@
 title: formily 简介
 nav:
   path: '/bolg'
----# formily 简介
+---
+
+# formily 简介
 
 文档地址: [formily 简介](https://formilyjs.org/#/bdCRC5/BlUJUaiw)
 
