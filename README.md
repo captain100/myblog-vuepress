@@ -40,3 +40,9 @@ Build library via `father-build`,
 ```bash
 $ npm run build
 ```
+
+Deploy 发布
+
+```bash
+$ npm run deploy
+```
