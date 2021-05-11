@@ -14,4 +14,4 @@ group:
  之前的搭建的网站没有功夫管理服务器和域名都过期了，尝试使用github管理文档永久文档管理
 </Alert>
 
-<img src="/img/书架.jpeg">
+<img src="https://raw.githubusercontent.com/captain100/mycdn/main/img/20210511103803.png" />
