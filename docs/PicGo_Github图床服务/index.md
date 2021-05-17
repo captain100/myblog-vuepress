@@ -13,6 +13,10 @@ group:
   由于发布地址可以开发地址不一致，导致bolg使用本地图deloy发布后图片地址错误，所以搭建一个基于github的图床应用，将应用图片通过PicGo
 </Alert>
 
+# PicGo 配置 github 图床服务
+
+![](https://cdn.jsdelivr.net/gh/captain100/mycdn/img/20210517110515.png)
+
 # PicGo 上传图片操作
 
 PicGo 下载地址 [https://github.com/Molunerfinn/PicGo/releases](https://github.com/Molunerfinn/PicGo/releases)
