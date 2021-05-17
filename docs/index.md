@@ -1,6 +1,6 @@
 ---
 hero:
-  image: '/img/logo.png'
+  image: 'https://cdn.jsdelivr.net/gh/captain100/mycdn/img/logo.png'
   actions:
     - text: 扬帆起航
       link: /bolg
