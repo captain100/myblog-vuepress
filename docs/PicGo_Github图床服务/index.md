@@ -46,7 +46,14 @@ https://cdn.jsdelivr.net/gh/murenziwei/images/draw/01.png
 https://cdn.jsdelivr.net/gh/murenziwei/images/
 </Alert>
 
+## github-plus
+
+<Alert type="warning">
+  支持github 图床删除和管理同步
+</Alert>
+
 # 参考文章
 
 1. [使用 GitHub 搭建免费图床/网盘(CDN 加速)](https://www.jianshu.com/p/2097bef17cbe)
 2. [PicGo 配置使用 github ](https://www.jianshu.com/p/9d91355e8418)
+3. [安装 picgo github-plus 插件](https://www.pianshen.com/article/31341344211)
